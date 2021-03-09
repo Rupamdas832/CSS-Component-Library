@@ -1,18 +1,22 @@
 import React from 'react'
 import "./Navigation.css"
 
-function Navigation({setRoute}) {
+const Navigation = ({setRoute}) => {
 
     const routeClicked = (btnName) => {
-        console.log(btnName.value)
+        setRoute(btnName)
     }
     return (
         <div className="navigationSection">
-            <button onClick={e => routeClicked(e.target)}>Badge</button>
-            <button>Card</button>
-            <button>Input</button>
-            <button>Form</button>
-            <button>Avatar</button>
+        <ul>
+            <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Getting Started</li>
+            <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Avatar</li>
+            <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Button</li>
+            <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Card</li>
+            <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Input</li>
+            <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Form</li>
+        </ul>
+            
         </div>
     )
 }
