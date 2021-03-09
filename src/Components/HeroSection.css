@@ -1,0 +1,6 @@
+.heroSection{
+    width: 100vw;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
