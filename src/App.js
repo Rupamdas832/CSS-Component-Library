@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
 import HeroSection from './Components/HeroSection';
 import Footer from './Components/Footer';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Header/>

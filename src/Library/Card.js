@@ -17,6 +17,24 @@ const Card = () => {
                 <button class="actionBtn">Read more...</button>
             </div>   
         </div>
+        <pre>
+            <code>
+                {`
+<div class="card">
+    <div class="cardHeader">
+        <h2>Heading</h2>
+    </div>
+    <div class="cardBody">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </div>
+    <div class="cardFooter">
+        <button class="btn outline">Like</button>
+        <button class="actionBtn">Read more...</button>
+    </div>   
+</div>    
+                `}
+            </code>
+        </pre>
         <div class="card">
             <div class="cardHeader">
                 <h2>Heading</h2>
@@ -32,6 +50,27 @@ const Card = () => {
                 <button class="actionBtn">More..</button>
             </div>   
         </div>
+        <pre>
+            <code>
+                {`
+<div class="card">
+    <div class="cardHeader">
+        <h2>Heading</h2>
+    </div>
+    <div class="cardImg">
+        <img src="sample.jpg"/>
+    </div>
+    <div class="cardBody">
+        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,</p>
+    </div>
+    <div class="cardFooter">
+        <button class="btn outline"><i class="far fa-heart"></i></button>
+        <button class="actionBtn">More..</button>
+    </div>   
+</div>
+                `}
+            </code>
+        </pre>
         <div class="ecommerceCard">
             <div class="cardBadge">
                 <h5>New</h5>
@@ -45,13 +84,37 @@ const Card = () => {
                 <h4>₹5999</h4>
                 <h5>50% off</h5>
             </div>
+            </div>
+            <div class="cardFooter">
+                <button class="btn outline"><i class="far fa-heart"></i></button>
+                <button class="btn">Add to Cart</button>
+            </div>   
         </div>
-        
-        <div class="cardFooter">
-            <button class="btn outline"><i class="far fa-heart"></i></button>
-            <button class="btn">Add to Cart</button>
-        </div>   
+        <pre>
+            <code>
+                {`
+<div class="ecommerceCard">
+    <div class="cardBadge">
+        <h5>New</h5>
     </div>
+    <div class="cardImg">
+        <img src="sample.jpg"/>
+    </div>
+    <div class="cardBody">
+        <p>boAt Airdopes 131 Bluetooth Headset</p>
+    <div class="cardPrice">
+        <h4>₹5999</h4>
+        <h5>50% off</h5>
+    </div>
+    </div>
+    <div class="cardFooter">
+        <button class="btn outline"><i class="far fa-heart"></i></button>
+        <button class="btn">Add to Cart</button>
+    </div>   
+</div>
+                `}
+            </code>
+        </pre>
         </div>
     )
 }

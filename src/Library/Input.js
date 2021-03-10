@@ -10,11 +10,32 @@ const Input = () => {
             <label>Name</label>
             <input placeholder="Enter name"/>
         </div>
+        <pre>
+            <code>
+            {`
+<div class="input">
+    <label>Name</label>
+    <input placeholder="Enter name"/>
+</div>    
+            `}
+            </code>
+        </pre>
         <div class="password">
             <label>Password</label>
             <input type="password" id="password" placeholder="Enter Password"/>
             <button id="passwordShow">Show</button>
         </div>
+        <pre>
+            <code>
+            {`
+<div class="password">
+    <label>Password</label>
+    <input type="password" id="password" placeholder="Enter Password"/>
+    <button id="passwordShow">Show</button>
+</div>            
+            `}
+            </code>
+        </pre>
     </div>
         </div>
     )
