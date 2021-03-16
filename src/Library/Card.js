@@ -71,6 +71,46 @@ const Card = () => {
                 `}
             </code>
         </pre>
+        <div class="flatCard">
+            <div class="imgFlat">
+                <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/85d4f30a-91e4-44c0-a263-046a445c730b/jordan-react-elevation-pf-basketball-shoe-WhWgxz.jpg"/>
+            </div>
+            <div class="detailFlat">
+                <h2>Jordan React Elevation PF</h2>
+                <div class="priceFlat">
+                    <h4>₹10295</h4>
+                    <h5>50% off</h5>
+                </div>
+                <p>Play with flair, but focus on the fundamentals. The Jordan React Elevation is inspired by team players who beat opponents with their grit and tenacity at both ends of the court. Light and durable, it offers a secure, supportive fit.</p>
+                <div class="btnsFlat">
+                    <button class="btn outline"><i class="far fa-heart"></i></button>
+                    <button class="btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <pre>
+            <code>
+                {`
+<div class="flatCard">
+    <div class="imgFlat">
+        <img src="https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/85d4f30a-91e4-44c0-a263-046a445c730b/jordan-react-elevation-pf-basketball-shoe-WhWgxz.jpg"/>
+    </div>
+    <div class="detailFlat">
+        <h2>Jordan React Elevation PF</h2>
+        <div class="priceFlat">
+            <h4>₹10295</h4>
+            <h5>50% off</h5>
+        </div>
+        <p>Play with flair, but focus on the fundamentals. The Jordan React Elevation is inspired by team players who beat opponents with their grit and tenacity at both ends of the court. Light and durable, it offers a secure, supportive fit.</p>
+        <div class="btnsFlat">
+            <button class="btn outline"><i class="far fa-heart"></i></button>
+            <button class="btn">Add to Cart</button>
+        </div>
+    </div>
+</div>
+                `}
+            </code>
+        </pre>
         <div class="ecommerceCard">
             <div class="cardBadge">
                 <h5>New</h5>

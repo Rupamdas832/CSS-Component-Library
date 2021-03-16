@@ -10,6 +10,7 @@ const Navigation = ({setRoute}) => {
         <div className="navigationSection">
         <ul>
             <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Getting Started</li>
+            <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Navbar</li>
             <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Avatar</li>
             <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Button</li>
             <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Card</li>

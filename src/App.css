@@ -1,14 +1,10 @@
 @import "https://uishop.netlify.app/style.css";
 
-*{
-  margin: 0;
-  padding: 0;
-}
 .app{
   position: relative;
 }
 pre{
-  background-color: rgb(43, 62, 63);
+  background-color: rgb(0, 0, 0);
   border-radius: 1rem;
   margin: 1rem 0;
   padding: 0 1rem;
@@ -16,4 +12,10 @@ pre{
 }
 code{
   color: white;
+}
+.avatarDiv ,.badgeAvatarDiv , .buttonDiv , .floatButtonDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }

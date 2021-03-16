@@ -8,6 +8,7 @@ import Input from '../Library/Input'
 import Card from '../Library/Card'
 import Button from '../Library/Button'
 import GettingStarted from '../Library/GettingStarted'
+import Navbar from '../Library/Navbar'
 
 const Detail = ({route = "button"}) => {
 
@@ -26,6 +27,8 @@ const Detail = ({route = "button"}) => {
                 return <Input/>
             case 'card':
                 return <Card/>
+            case 'navbar':
+                return <Navbar/>
             default :
                 return <GettingStarted/>
         }
