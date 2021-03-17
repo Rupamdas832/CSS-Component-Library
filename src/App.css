@@ -1,16 +1,17 @@
-@import "https://uishop.netlify.app/style.css";
 
 .app{
   position: relative;
+  
 }
 pre{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(32, 31, 31);
   border-radius: 1rem;
   margin: 1rem 0;
   padding: 0 1rem;
   white-space: pre-wrap;
 }
 code{
+  font-size: 0.8rem;
   color: white;
 }
 .avatarDiv ,.badgeAvatarDiv , .buttonDiv , .floatButtonDiv{
