@@ -6,16 +6,16 @@ const Navigation = ({setRoute}) => {
     const routeClicked = (btnName) => {
         setRoute(btnName)
     }
+    const routes = [
+        "Navbar", "Avatar","Button","Card","Input","Form","Modal"
+    ]
     return (
         <div className="navigationSection">
         <ul>
             <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Getting Started</li>
-            <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Navbar</li>
-            <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Avatar</li>
-            <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Button</li>
-            <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Card</li>
-            <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Input</li>
-            <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Form</li>
+            {routes.map((route,idx) => {
+                return <li onClick={e => routeClicked(e.target.innerText.toLowerCase())} key={idx}>{route}</li>
+            })}
         </ul>
             
         </div>

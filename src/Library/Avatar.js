@@ -5,52 +5,37 @@ const Avatar = () => {
     return (
         <div>
         <Heading title="Avatar"/>
+        <div className="container">
             <div className="avatarDiv">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOhpV67XSI4Vz5Z_L7XoWiH7UzZQDBTzS3g&usqp=CAU" class="avatar"/>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOhpV67XSI4Vz5Z_L7XoWiH7UzZQDBTzS3g&usqp=CAU" class="avatar md"/>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOhpV67XSI4Vz5Z_L7XoWiH7UzZQDBTzS3g&usqp=CAU" class="avatar lg"/>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOhpV67XSI4Vz5Z_L7XoWiH7UzZQDBTzS3g&usqp=CAU" className="avatar"/>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOhpV67XSI4Vz5Z_L7XoWiH7UzZQDBTzS3g&usqp=CAU" className="avatar md"/>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOhpV67XSI4Vz5Z_L7XoWiH7UzZQDBTzS3g&usqp=CAU" className="avatar lg"/>
             </div>
-            <pre>
-                <code>
-                    <p>{`
-<img src="sample.jpg" class="avatar"/>
-<img src="sample.jpg" class="avatar md"/>
-<img src="sample.jpg" class="avatar lg"/>
-                    `}</p>
-                </code>
-            </pre>
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28123%2C182%2C123%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522sample.jpg%2522%2520className%253D%2522avatar%2522%252F%253E%250A%253Cimg%2520src%253D%2522sample.jpg%2522%2520className%253D%2522avatar%2520md%2522%252F%253E%250A%253Cimg%2520src%253D%2522sample.jpg%2522%2520className%253D%2522avatar%2520lg%2522%252F%253E"
+  style={{width: "530px", height: "242px", margin: "2rem 0"}}
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
             <div className="badgeAvatarDiv">
-                <div class="badgeAvatar">
-                    <span></span>
+                <div className="badgeAvatar">
+                    <span>8</span>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOhpV67XSI4Vz5Z_L7XoWiH7UzZQDBTzS3g&usqp=CAU"/>
                 </div>
-                <div class="badgeAvatar red">
-                    <span></span>
+                <div className="badgeAvatar orange">
+                    <span>R</span>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOhpV67XSI4Vz5Z_L7XoWiH7UzZQDBTzS3g&usqp=CAU"/>
                 </div>
-                <div class="badgeAvatar orange">
-                    <span></span>
+                <div className="badgeAvatar red">
+                    <span>8</span>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOhpV67XSI4Vz5Z_L7XoWiH7UzZQDBTzS3g&usqp=CAU"/>
                 </div>
             </div>
-            <pre>
-                <code>
-                    <p>{`
-<div class="badgeAvatar">
-    <span>8</span>
-    <img src="sample.jpg"/>
-</div>
-<div class="badgeAvatar red">
-    <span>R.D</span>
-    <img src="sample.jpg"/>
-</div>
-<div class="badgeAvatar blue">
-    <span>8</span>
-    <img src="sample.jpg"/>
-</div>
-                    `}</p>
-                </code>
-            </pre>
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28123%2C182%2C123%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520className%253D%2522badgeAvatar%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E8%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522sample.jpg%2522%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520className%253D%2522badgeAvatar%2520red%2522%253E%250A%2520%2520%2520%2520%253Cspan%253ER.D%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522sample.jpg%2522%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520className%253D%2522badgeAvatar%2520blue%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E8%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522sample.jpg%2522%252F%253E%250A%253C%252Fdiv%253E"
+  style={{width: "437px", height: "407px", margin: "2rem 0"}}
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
         </div>
     )
 }

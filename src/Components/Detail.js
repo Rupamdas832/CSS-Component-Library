@@ -9,6 +9,7 @@ import Card from '../Library/Card'
 import Button from '../Library/Button'
 import GettingStarted from '../Library/GettingStarted'
 import Navbar from '../Library/Navbar'
+import Modal from '../Library/Modal'
 
 const Detail = ({route = "button"}) => {
 
@@ -29,6 +30,8 @@ const Detail = ({route = "button"}) => {
                 return <Card/>
             case 'navbar':
                 return <Navbar/>
+            case 'modal':
+                return <Modal/>
             default :
                 return <GettingStarted/>
         }
