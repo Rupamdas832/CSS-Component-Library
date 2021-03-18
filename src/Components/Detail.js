@@ -10,6 +10,9 @@ import Button from '../Library/Button'
 import GettingStarted from '../Library/GettingStarted'
 import Navbar from '../Library/Navbar'
 import Modal from '../Library/Modal'
+import Tooltip from '../Library/Tooltip'
+import Dropdown from '../Library/Dropdown'
+import Spinner from '../Library/Spinner'
 
 const Detail = ({route = "button"}) => {
 
@@ -32,6 +35,14 @@ const Detail = ({route = "button"}) => {
                 return <Navbar/>
             case 'modal':
                 return <Modal/>
+            case 'tooltip':
+                return <Tooltip/>
+            case 'badge':
+                return <Badge/>
+            case 'dropdown':
+                return <Dropdown/>
+            case 'spinner':
+                return <Spinner/>
             default :
                 return <GettingStarted/>
         }

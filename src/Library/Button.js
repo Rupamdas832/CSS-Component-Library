@@ -12,7 +12,7 @@ const Button = () => {
         </div>
         <iframe
   src="https://carbon.now.sh/embed?bg=rgba%28123%2C182%2C123%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520className%253D%2522btn%2522%253EButton%253C%252Fbutton%253E%250A%253Cbutton%2520className%253D%2522btn%2520outline%2522%253EButton%253C%252Fbutton%253E%250A%253Cbutton%2520className%253D%2522btn%2520unstyled%2522%253EButton%253C%252Fbutton%253E"
-  style={{width: "555px", height: "242px", margin: "2rem"}}
+  style={{width: "580px", height: "242px", margin: "2rem"}}
   sandbox="allow-scripts allow-same-origin">
 </iframe>
         <div className="floatButtonDiv">

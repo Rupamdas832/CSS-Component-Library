@@ -17,4 +17,5 @@
 }
 .navigationSection li:hover{
     background-color: rgb(123, 182, 123);
+    border-radius: 0 1rem 1rem 0;
 }
