@@ -50,6 +50,7 @@ const Detail = ({route = "button"}) => {
     return (
         <div className="detailSection">
            {renderSwitch()}
+           <button className="btnFloat md moveUp" onClick={() => window.scrollTo({top: 0, behavior: "smooth"})}><i class="fas fa-arrow-up"></i></button>
         </div>
     )
 }

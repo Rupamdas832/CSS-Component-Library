@@ -13,8 +13,11 @@
     border-radius: 0 0.5rem 0.5rem 0;
 }
 .navigationSection li:hover{
-    background-color: rgb(123, 182, 123);
-    color: white;
+    animation: appear 1.5s;
+}
+@keyframes appear{
+    from {background: none}
+  to {background-color: rgb(123, 182, 123);}
 }
 .route{
     border-left: 5px solid rgb(123, 182, 123);
