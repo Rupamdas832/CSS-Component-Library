@@ -4,3 +4,9 @@
     display: grid;
     grid-template-columns: 1fr 5fr;
 }
+
+@media only screen and (max-width: 450px){
+    .heroSection{
+        display: flex;
+    }
+}

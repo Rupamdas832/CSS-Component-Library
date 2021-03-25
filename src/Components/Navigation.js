@@ -19,6 +19,7 @@ const Navigation = ({setRoute}) => {
     })
     return (
         <div className="navigationSection">
+        <div className="toggleNavBar"><h2><i class="fas fa-bars"></i></h2></div>
         <ul>
             {selectedRoute === "Getting Started" ? (<li onClick={e => routeClicked(e.target.innerText)} className="route default">Getting Started</li>) : (<li onClick={e => routeClicked(e.target.innerText)}>Getting Started</li>)}
             {routes.map((route,idx) => {

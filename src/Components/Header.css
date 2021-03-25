@@ -1,9 +1,9 @@
 .header{
-    background-color: rgb(25,114,120);
+    background-color: rgb(53, 78, 53);
     color: white;
     height: 10vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 0 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

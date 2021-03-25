@@ -4,6 +4,9 @@
     border-right: 1px solid black;
     padding: 1rem;
 }
+.toggleNavBar{
+    display: none;
+}
 .navigationSection li{
     list-style-type: none;
     cursor: pointer;
@@ -24,4 +27,17 @@
 }
 .route.default{
     color: rgb(82, 117, 82);
+}
+
+@media only screen and (max-width: 450px){
+    .navigationSection{
+        position: fixed;
+        background-color: white;
+        z-index: 1;
+    }
+    .toggleNavBar{
+        display: inline-block;
+        position: absolute;
+        top: -4.5rem;
+    }
 }
