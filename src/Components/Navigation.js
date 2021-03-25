@@ -1,10 +1,13 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./Navigation.css"
 
 const Navigation = ({setRoute}) => {
+    const [selectedRoute, setSelectedRoute] = useState("Getting Started")
 
     const routeClicked = (btnName) => {
-        setRoute(btnName)
+        const btnNameLowerCase = btnName.toLowerCase()
+        setRoute(btnNameLowerCase)
+        setSelectedRoute(btnName)
     }
     const routes = [
         "Navbar", "Avatar","Badge","Button","Tooltip", "Card","Input","Form","Modal","Dropdown","Spinner"
@@ -17,9 +20,9 @@ const Navigation = ({setRoute}) => {
     return (
         <div className="navigationSection">
         <ul>
-            <li onClick={e => routeClicked(e.target.innerText.toLowerCase())}>Getting Started</li>
+            {selectedRoute === "Getting Started" ? (<li onClick={e => routeClicked(e.target.innerText)} className="route">Getting Started</li>) : (<li onClick={e => routeClicked(e.target.innerText)}>Getting Started</li>)}
             {routes.map((route,idx) => {
-                return <li onClick={e => routeClicked(e.target.innerText.toLowerCase())} key={idx}>{route}</li>
+                return selectedRoute === route ? (<li onClick={e => routeClicked(e.target.innerText)} key={idx} className="route">{route}</li>) : (<li onClick={e => routeClicked(e.target.innerText)} key={idx}>{route}</li>)
             })}
         </ul>
             
