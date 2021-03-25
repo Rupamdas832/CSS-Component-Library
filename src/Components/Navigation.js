@@ -20,7 +20,7 @@ const Navigation = ({setRoute}) => {
     return (
         <div className="navigationSection">
         <ul>
-            {selectedRoute === "Getting Started" ? (<li onClick={e => routeClicked(e.target.innerText)} className="route">Getting Started</li>) : (<li onClick={e => routeClicked(e.target.innerText)}>Getting Started</li>)}
+            {selectedRoute === "Getting Started" ? (<li onClick={e => routeClicked(e.target.innerText)} className="route default">Getting Started</li>) : (<li onClick={e => routeClicked(e.target.innerText)}>Getting Started</li>)}
             {routes.map((route,idx) => {
                 return selectedRoute === route ? (<li onClick={e => routeClicked(e.target.innerText)} key={idx} className="route">{route}</li>) : (<li onClick={e => routeClicked(e.target.innerText)} key={idx}>{route}</li>)
             })}
