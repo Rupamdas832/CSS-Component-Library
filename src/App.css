@@ -1,7 +1,6 @@
 
 .app{
   position: relative;
-  
 }
 pre{
   background-color: rgb(54, 54, 54);
@@ -26,4 +25,11 @@ code{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+@media only screen and (max-width: 450px){
+  .avatarDiv ,.badgeAvatarDiv , .buttonDiv , .floatButtonDiv, .badgeDiv{
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

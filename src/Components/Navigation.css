@@ -40,4 +40,14 @@
         position: absolute;
         top: -4.5rem;
     }
+    .navRoutes{
+        background-color: white;
+        position: fixed;
+        left: -100%;
+        transition: 0.5s;
+    }
+    .navRoutes.open{
+        left: 0;
+        transition: 0.5s;
+    }
 }

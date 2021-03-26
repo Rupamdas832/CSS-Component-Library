@@ -1,10 +1,17 @@
 .detailSection{
     padding: 1rem;
     position: relative;
+    font-size: 1rem;
 }
 .btnFloat.moveUp{
     font-size: 1.3rem;
     position: absolute;
     bottom: -1rem;
     right: 5rem;
+}
+
+@media only screen and (max-width: 450px){
+    .detailSection{
+        font-size: 0.7rem;
+    }
 }
