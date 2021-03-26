@@ -19,7 +19,7 @@ const Navigation = ({setRoute}) => {
         if(a<b){return -1;}
         return 0
     })
-    console.log(toggle)
+    
     return (
         <div className="navigationSection">
         <div className="toggleNavBar" onClick={() => setToggle(!toggle)}><h2><i class="fas fa-bars"></i></h2></div>
